@@ -4,7 +4,7 @@ I take up the challenge of Benjamin Code by doing creative development on a smal
 
 # MODEL
 
-![Model]()
+![Model](https://raw.githubusercontent.com/stephenranaud/challenge-benjamincode-metropolis/main/assets/website.png)
 
 ## Use
 
