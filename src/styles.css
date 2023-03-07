@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("/assets/fonts/kanit-semibold.woff") format("woff"),
+    url("/assets/fonts/kanit-bold.woff2") format("woff2"),
+    url("/assets/fonts//kanit-semibold.woff2") format("woff2"),
+    url("/assets/fonts/kanit-bold.woff") format("woff");
+}
+
+:root {
+  --ff-base: Kanit;
+  --max-size-container: 1200px;
+
+  --black: #050505;
+  --white: #f8f6f6;
+}
+
+/**
+* > RESET 
+**/
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+  font-family: var(--ff-base);
+}
+
+/**
+* > NORMALIZE 
+**/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
