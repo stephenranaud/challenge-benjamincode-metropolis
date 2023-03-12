@@ -10,10 +10,6 @@ btnMenu.addEventListener("click", () => {
   btnMenu.classList.toggle("active");
 });
 
-window.addEventListener("load", () => {
-  // menu.classList.remove("slide-left-fade");
-});
-
 //Animation title
 
 if (!title) throw new Error("Can't access to title");
